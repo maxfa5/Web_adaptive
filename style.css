@@ -9,7 +9,8 @@
 /*Настройка основных стилей*/
 
 :root {
-    --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12)
+    --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+    --dark: #0c2836;
 }
 
 body {
@@ -66,7 +67,6 @@ ul {
 .promo .promo-bg {
     height: 628px;
     background-image: url(img/promo-pic.svg);
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -137,8 +137,12 @@ ul {
 }
 
 .feedback__text {
+    height: 100%;
     margin-right: 37px;
     text-align: right;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .feedback__text h2 {
@@ -189,4 +193,62 @@ ul {
     background: linear-gradient(90deg, #FBB501 -0.07%, #FFB703 100%);
     border-radius: 10px;
     border: none;
+    transition: box-shadow 300ms, transform 100ms;
 }
+
+.button-primary:focus{
+    transform: scale(0.95);
+}
+.button-primary:hover{
+    box-shadow: 0 0 10px 0 #ffb003;
+}
+
+
+.footer{
+
+}
+
+.footer__top{
+    margin-bottom: 74px;
+}
+
+.footer__list{
+    text-align: center;
+}
+
+.footer__links-item{
+    
+}
+
+.footer__list-item{
+    font-size: 24px;
+    color: var(--dark);
+    
+}
+.footer__list-item-link{
+    font-size: 24px;
+    color: var(--dark);
+}
+
+.footer__copyright{
+    margin-bottom: 12px;
+    font-size: 14px;
+    text-align:  center;
+}
+.footer__info{
+    text-align: right;
+}
+
+
+
+.razrab__names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.razrab{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}    
