@@ -1,0 +1,21 @@
+.navigation {
+  display: flex;
+  padding-top: 38px;
+  margin-bottom: 72px;
+  justify-content: space-between;
+}
+.navigation__list {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  grid-gap: 39px;
+}
+.navigation__list-item-link {
+  font-weight: 500;
+  color: #0C2836;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation__list-item-link:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=navigation.css.map */

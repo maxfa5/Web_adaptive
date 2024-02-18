@@ -1,0 +1,17 @@
+.projects {
+  margin-bottom: 100px;
+}
+.projects__cards {
+  border-radius: 15px;
+}
+.projects__cards a {
+  font-weight: 800;
+  font-size: 18px;
+  color: #FFA239;
+  text-decoration: none;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.projects__cards a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=projects.css.map */

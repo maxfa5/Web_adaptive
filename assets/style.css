@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/*Настройка основных стилей*/
+:root {
+  --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+  --dark: #0c2836;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  padding-top: 38px;
+  margin-bottom: 72px;
+  justify-content: space-between;
+}
+.navigation__list {
+  display: flex;
+  justify-content: column;
+  align-items: center;
+  grid-gap: 39px;
+}
+.navigation__list-item-link {
+  font-weight: 500;
+  color: #0C2836;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navigation__list-item-link:hover {
+  text-decoration: underline;
+}
+
+.promo h1 span {
+  color: #FFA239;
+}
+.promo p {
+  margin-bottom: 262px;
+}
+.promo-bg {
+  height: 628px;
+  background-image: url(../img/promo-pic.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo__list li {
+  margin-bottom: 8px;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.promo__list li:last-child {
+  margin-bottom: 0px;
+}
+
+.projects {
+  margin-bottom: 100px;
+}
+.projects__cards {
+  border-radius: 15px;
+}
+.projects__cards a {
+  font-weight: 800;
+  font-size: 18px;
+  color: #FFA239;
+  text-decoration: none;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+.projects__cards a:hover {
+  text-decoration: underline;
+}
+
+.razrab {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 100px;
+}
+.razrab__names {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.razrab__names__tecnologies {
+  text-align: right;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 32px;
+  display: inline-block;
+}
+.razrab__names__tecnologies span:hover {
+  color: #ffb003;
+}
+.razrab__card {
+  background-image: url(../img/cards/Default.svg);
+  height: 261px;
+  width: 501px;
+}
+
+.tech {
+  margin-bottom: 94px;
+}
+
+.tech .tech__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  padding: 55px 87px 24px 87px;
+  border-radius: 15px;
+  background: white;
+  box-shadow: var(--box-shadow);
+}
+
+.tech .tech__card-name {
+  color: #8a99a8;
+  font-size: 18px;
+}
+
+.tech .tech__card img {
+  margin-bottom: 18px;
+}
+
+.tech .row {
+  row-gap: 24px;
+}
+
+.feedback {
+  margin-bottom: 100px;
+}
+.feedback__text {
+  height: 100%;
+  margin-right: 37px;
+  text-align: right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.feedback__text h2 {
+  margin-bottom: 0;
+}
+.feedback__text p {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.form {
+  background-color: white;
+  box-shadow: var(--box-shadow);
+  padding: 24px;
+  border-radius: 15px;
+}
+.form label {
+  display: block;
+}
+.form textarea,
+.form input {
+  display: block;
+  padding: 8px 12px;
+  border: 1px solid #09E2EB;
+  border-radius: 10px;
+  min-height: 40px;
+  overflow: hidden;
+  outline: none;
+  width: 100%;
+}
+.form textarea::-moz-placeholder, .form input::-moz-placeholder {
+  color: #8a99a8;
+}
+.form textarea:-ms-input-placeholder, .form input:-ms-input-placeholder {
+  color: #8a99a8;
+}
+.form textarea::placeholder,
+.form input::placeholder {
+  color: #8a99a8;
+}
+
+.form_group {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.button-primary {
+  padding: 9px 60px;
+  background: linear-gradient(90deg, #FBB501 -0.07%, #FFB703 100%);
+  border-radius: 10px;
+  border: none;
+  transition: box-shadow 300ms, transform 100ms;
+}
+.button-primary:focus {
+  transform: scale(0.95);
+}
+.button-primary:hover {
+  box-shadow: 0 0 10px 0 #ffb003;
+}
+
+.footer__top {
+  margin-bottom: 74px;
+}
+
+.footer__list {
+  text-align: center;
+}
+
+.footer__list-item {
+  font-size: 24px;
+  color: var(--dark);
+}
+
+.footer__list-item-link {
+  font-size: 24px;
+  color: var(--dark);
+}
+
+.footer__copyright {
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer__info {
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */

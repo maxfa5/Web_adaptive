@@ -1,0 +1,24 @@
+.tech {
+    margin-bottom: 94px;
+    &__card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        height: 100%;
+        padding: 55px 87px 24px 87px;
+        border-radius: 15px;
+        background: #FFFF;
+        box-shadow: var(--box-shadow);
+        &-name {
+            color: #8a99a8;
+            font-size: 18px;
+        }
+        img {
+            margin-bottom: 18px;
+        }
+    }
+    &__row {
+        row-gap: 24px;
+    }
+}

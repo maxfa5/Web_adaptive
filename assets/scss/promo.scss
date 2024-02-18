@@ -1,0 +1,27 @@
+.promo {
+    h1 {
+        span {
+            color: #FFA239;
+        }
+    }
+    p {
+        margin-bottom: 262px;
+    }
+    &-bg {
+        height: 628px;
+        background-image: url(../img/promo-pic.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__list {
+        li {
+            margin-bottom: 8px;
+            gap: 12px;
+            display: flex;
+            align-items: center;
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

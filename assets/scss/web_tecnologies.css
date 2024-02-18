@@ -1,0 +1,26 @@
+.razrab {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 100px;
+}
+.razrab__names {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.razrab__names__tecnologies {
+  text-align: right;
+  margin: 10px;
+  font-weight: 400;
+  font-size: 32px;
+  display: inline-block;
+}
+.razrab__names__tecnologies span:hover {
+  color: #ffb003;
+}
+.razrab__card {
+  background-image: url(../img/cards/Default.svg);
+  height: 261px;
+  width: 501px;
+}/*# sourceMappingURL=web_tecnologies.css.map */

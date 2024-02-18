@@ -1,0 +1,24 @@
+.footer {
+    &__top {
+        margin-bottom: 74px;
+    }
+    &__list {
+        text-align: center;
+        &-item {
+            font-size: 24px;
+            color: var(--dark);
+            &-link {
+                font-size: 24px;
+                color: var(--dark);
+            }
+        }
+    }
+    &__copyright {
+        margin-bottom: 12px;
+        font-size: 14px;
+        text-align: center;
+    }
+    &__info {
+        text-align: right;
+    }
+}

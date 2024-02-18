@@ -1,0 +1,17 @@
+.projects {
+    margin-bottom: 100px;
+    &__cards {
+        border-radius: 15px;
+        a {
+            font-weight: 800;
+            font-size: 18px;
+            color: #FFA239;
+            text-decoration: none;
+            margin-bottom: 6px;
+            display: inline-block;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
