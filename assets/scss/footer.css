@@ -7,6 +7,16 @@
     align-items: center;
   }
 }
+.footer__top img {
+  align-items: left;
+  vertical-align: middle;
+}
+@media screen and (max-width: 991px) {
+  .footer__top img {
+    margin: 0px auto;
+    display: block;
+  }
+}
 .footer__list {
   text-align: center;
 }
@@ -25,4 +35,9 @@
 }
 .footer__info {
   text-align: right;
+}
+@media screen and (max-width: 991px) {
+  .footer__info {
+    text-align: center;
+  }
 }/*# sourceMappingURL=footer.css.map */

@@ -48,6 +48,9 @@
 .form textarea::-moz-placeholder, .form input::-moz-placeholder {
   color: #8a99a8;
 }
+.form textarea:-ms-input-placeholder, .form input:-ms-input-placeholder {
+  color: #8a99a8;
+}
 .form textarea::placeholder,
 .form input::placeholder {
   color: #8a99a8;
