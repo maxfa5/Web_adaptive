@@ -4,11 +4,21 @@
 .promo p {
   margin-bottom: 262px;
 }
+@media screen and (max-width: 991px) {
+  .promo p {
+    margin-bottom: 285px;
+  }
+}
 .promo-bg {
   height: 628px;
   background-image: url(../img/promo-pic.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .promo-bg {
+    height: 670px;
+  }
 }
 .promo__list li {
   margin-bottom: 8px;

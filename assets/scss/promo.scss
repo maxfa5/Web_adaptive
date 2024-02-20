@@ -6,12 +6,18 @@
     }
     p {
         margin-bottom: 262px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 285px;
+        }
     }
     &-bg {
         height: 628px;
         background-image: url(../img/promo-pic.svg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        @media screen and (max-width: 991px) {
+            height: 670px;
+        }
     }
     &__list {
         li {

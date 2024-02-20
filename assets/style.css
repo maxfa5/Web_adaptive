@@ -62,7 +62,7 @@ ul {
   height: 628px;
   background-image: url(../img/promo-pic.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .promo__list li {
   margin-bottom: 8px;
@@ -78,6 +78,7 @@ ul {
   margin-bottom: 100px;
 }
 .projects__cards {
+  width: 100%;
   border-radius: 15px;
 }
 .projects__cards a {
@@ -122,8 +123,7 @@ ul {
 .tech {
   margin-bottom: 94px;
 }
-
-.tech .tech__card {
+.tech__card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,17 +134,14 @@ ul {
   background: white;
   box-shadow: var(--box-shadow);
 }
-
-.tech .tech__card-name {
+.tech__card-name {
   color: #8a99a8;
   font-size: 18px;
 }
-
-.tech .tech__card img {
+.tech__card img {
   margin-bottom: 18px;
 }
-
-.tech .row {
+.tech__row {
   row-gap: 24px;
 }
 
@@ -221,27 +218,22 @@ ul {
 .footer__top {
   margin-bottom: 74px;
 }
-
 .footer__list {
   text-align: center;
 }
-
 .footer__list-item {
   font-size: 24px;
   color: var(--dark);
 }
-
 .footer__list-item-link {
   font-size: 24px;
   color: var(--dark);
 }
-
 .footer__copyright {
   margin-bottom: 12px;
   font-size: 14px;
   text-align: center;
 }
-
 .footer__info {
   text-align: right;
 }/*# sourceMappingURL=style.css.map */

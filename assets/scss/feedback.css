@@ -9,6 +9,14 @@
   justify-content: center;
   flex-direction: column;
 }
+@media screen and (max-width: 1199px) {
+  .feedback__text {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+    display: block;
+  }
+}
 .feedback__text h2 {
   margin-bottom: 0;
 }
