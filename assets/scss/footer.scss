@@ -1,6 +1,14 @@
 .footer {
     &__top {
         margin-bottom: 74px;
+        .row{
+
+            @media screen and (max-width: 991px) {
+                row-gap: 24px;
+                align-items: center;
+            }
+        }
+
     }
     &__list {
         text-align: center;

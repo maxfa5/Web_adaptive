@@ -1,6 +1,14 @@
 .projects {
   margin-bottom: 100px;
 }
+.projects .row {
+  row-gap: 24px;
+}
+@media screen and (max-width: 991px) {
+  .projects {
+    padding-top: 44px;
+  }
+}
 .projects__cards {
   width: 100%;
   border-radius: 15px;

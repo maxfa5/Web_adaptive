@@ -10,6 +10,11 @@
         border-radius: 15px;
         background: #FFFF;
         box-shadow: var(--box-shadow);
+
+        @media screen and (max-width: 991px) {
+            padding-top: 44px;
+        }
+        
         &-name {
             color: #8a99a8;
             font-size: 18px;

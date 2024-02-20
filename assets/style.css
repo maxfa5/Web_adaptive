@@ -58,11 +58,21 @@ ul {
 .promo p {
   margin-bottom: 262px;
 }
+@media screen and (max-width: 991px) {
+  .promo p {
+    margin-bottom: 285px;
+  }
+}
 .promo-bg {
   height: 628px;
   background-image: url(../img/promo-pic.svg);
   background-repeat: no-repeat;
   background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .promo-bg {
+    height: 670px;
+  }
 }
 .promo__list li {
   margin-bottom: 8px;
@@ -76,6 +86,14 @@ ul {
 
 .projects {
   margin-bottom: 100px;
+}
+.projects .row {
+  row-gap: 24px;
+}
+@media screen and (max-width: 991px) {
+  .projects {
+    padding-top: 44px;
+  }
 }
 .projects__cards {
   width: 100%;
@@ -134,6 +152,11 @@ ul {
   background: white;
   box-shadow: var(--box-shadow);
 }
+@media screen and (max-width: 991px) {
+  .tech__card {
+    padding-top: 44px;
+  }
+}
 .tech__card-name {
   color: #8a99a8;
   font-size: 18px;
@@ -155,6 +178,14 @@ ul {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+@media screen and (max-width: 1199px) {
+  .feedback__text {
+    text-align: center;
+    margin-right: 0;
+    margin-bottom: 40px;
+    display: block;
+  }
 }
 .feedback__text h2 {
   margin-bottom: 0;
@@ -187,9 +218,6 @@ ul {
 .form textarea::-moz-placeholder, .form input::-moz-placeholder {
   color: #8a99a8;
 }
-.form textarea:-ms-input-placeholder, .form input:-ms-input-placeholder {
-  color: #8a99a8;
-}
 .form textarea::placeholder,
 .form input::placeholder {
   color: #8a99a8;
@@ -217,6 +245,12 @@ ul {
 
 .footer__top {
   margin-bottom: 74px;
+}
+@media screen and (max-width: 991px) {
+  .footer__top .row {
+    row-gap: 24px;
+    align-items: center;
+  }
 }
 .footer__list {
   text-align: center;

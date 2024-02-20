@@ -12,6 +12,11 @@
   background: white;
   box-shadow: var(--box-shadow);
 }
+@media screen and (max-width: 991px) {
+  .tech__card {
+    padding-top: 44px;
+  }
+}
 .tech__card-name {
   color: #8a99a8;
   font-size: 18px;
