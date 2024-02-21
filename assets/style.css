@@ -52,7 +52,10 @@ ul {
   text-decoration: underline;
 }
 
-.promo h1 span {
+.promo {
+  margin-bottom: 30px;
+}
+.promo px h1 span {
   color: #FFA239;
 }
 .promo p {
@@ -88,7 +91,7 @@ ul {
   margin-bottom: 100px;
 }
 .projects .row {
-  row-gap: 24px;
+  row-gap: 52px;
 }
 @media screen and (max-width: 991px) {
   .projects {
@@ -98,6 +101,8 @@ ul {
 .projects__cards {
   width: 100%;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .projects__cards a {
   font-weight: 800;
@@ -111,12 +116,6 @@ ul {
   text-decoration: underline;
 }
 
-.razrab {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 100px;
-}
 .razrab__names {
   display: flex;
   justify-content: center;
@@ -134,8 +133,10 @@ ul {
 }
 .razrab__card {
   background-image: url(../img/cards/Default.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 261px;
-  width: 501px;
 }
 
 .tech {
@@ -256,6 +257,16 @@ ul {
     align-items: center;
   }
 }
+.footer__top img {
+  align-items: left;
+  vertical-align: middle;
+}
+@media screen and (max-width: 991px) {
+  .footer__top img {
+    margin: 0px auto;
+    display: block;
+  }
+}
 .footer__list {
   text-align: center;
 }
@@ -274,4 +285,9 @@ ul {
 }
 .footer__info {
   text-align: right;
+}
+@media screen and (max-width: 1200px) {
+  .footer__info {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

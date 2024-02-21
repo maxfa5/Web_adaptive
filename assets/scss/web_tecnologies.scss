@@ -1,26 +1,24 @@
-.razrab {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 100px;
-    &__names {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        &__tecnologies {
-            text-align: right;
-            margin: 10px;
-            font-weight: 400;
-            font-size: 32px;
-            display: inline-block;
-            span:hover {
-                color: #ffb003;
+    .razrab {
+        &__names {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            &__tecnologies {
+                text-align: right;
+                margin: 10px;
+                font-weight: 400;
+                font-size: 32px;
+                display: inline-block;
+                span:hover {
+                    color: #ffb003;
+                }
             }
         }
+        &__card {
+            background-image: url(../img/cards/Default.svg);
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 261px;
+        }
     }
-    &__card {
-        background-image: url(../img/cards/Default.svg);
-        height: 261px;
-        width: 501px;
-    }
-}

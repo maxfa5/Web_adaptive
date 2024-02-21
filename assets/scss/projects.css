@@ -12,6 +12,8 @@
 .projects__cards {
   width: 100%;
   border-radius: 15px;
+  display: flex;
+  flex-direction: column;
 }
 .projects__cards a {
   font-weight: 800;

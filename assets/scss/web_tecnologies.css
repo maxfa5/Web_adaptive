@@ -1,9 +1,3 @@
-.razrab {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin: 100px;
-}
 .razrab__names {
   display: flex;
   justify-content: center;
@@ -21,6 +15,8 @@
 }
 .razrab__card {
   background-image: url(../img/cards/Default.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 261px;
-  width: 501px;
 }/*# sourceMappingURL=web_tecnologies.css.map */

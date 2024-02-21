@@ -1,4 +1,7 @@
-.promo h1 span {
+.promo {
+  margin-bottom: 30px;
+}
+.promo px h1 span {
   color: #FFA239;
 }
 .promo p {
