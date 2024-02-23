@@ -1,0 +1,34 @@
+.promo {
+  margin-bottom: 30px;
+}
+.promo px h1 span {
+  color: #FFA239;
+}
+.promo p {
+  margin-bottom: 262px;
+}
+@media screen and (max-width: 991px) {
+  .promo p {
+    margin-bottom: 285px;
+  }
+}
+.promo-bg {
+  height: 628px;
+  background-image: url(../img/promo-pic.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media screen and (max-width: 991px) {
+  .promo-bg {
+    height: 670px;
+  }
+}
+.promo__list li {
+  margin-bottom: 8px;
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}
+.promo__list li:last-child {
+  margin-bottom: 0px;
+}/*# sourceMappingURL=promo.css.map */
