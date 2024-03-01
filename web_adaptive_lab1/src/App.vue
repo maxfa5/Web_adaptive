@@ -1,196 +1,25 @@
+<script >
+import Vheader from '@/components/Vheader.vue';
+import Vpromo from '@/components/Vpromo.vue';
+import Vprojects from '@/components/Vprojects.vue';
+import Vtech from '@/components/Vtech.vue';
+import Vdeedback from '@/components/Vdeedback.vue';
+import Vfooter from '@/components/Vfooter.vue';
+</script>
+
 <template>
-        <header>
-            <div class="container">
-                <nav class="navigation">
-                    <img src="../img/logo-1.svg" alt="logo">
-                </nav>
-            </div>
-        </header>
-        <section class="promo">
-            <div class="container">
-                <div class="promo-bg">
-                    <div class="row">
-                        <div class="col-lg-8 col-lx-7">
-                            <h1>Разрабатываем <span> IT-решения </span> для бизнеса</h1>
-                            <p>Специализируемся в области разработки информационных <br>систем и приложений для автоматизации бизнеса.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class=" offset-sm-0 col-sm-12 offset-md-4 col-md-8 offset-xl-6 col-xl-6">
-                            <ul class="promo__list">
-                                <li><img src="../img/arrow.svg">IT-консалтинг</li>
-                                <li><img src="../img/arrow.svg">Проектирование и разработка веб-приложений</li>
-                                <li><img src="../img/arrow.svg">Комплексная автоматизация</li>
-                                <li><img src="../img/arrow.svg">Поддержка и сопровождение разработанных решений</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="razrab row">
-            <div class="razrab__names col-12 col-xl-6">
-                <div class="razrab__names__tecnologies"><span> web</span></div>
-                <div class="razrab__names__tecnologies"><span>system </span></div>
-                <div class="razrab__names__tecnologies"> <span>integration </span></div>
-                <div class="razrab__names__tecnologies"><span>automatization </span></div>
-            </div>
-            <div class="razrab__card col-12 col-xl-6"></div>
-        </section>
-        <section class="projects">
-            <div class="container">
-                <h2>Проекты</h2>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="projects__cards">
-                            <img src="../img/eduKesha.png" alt="">
-                            <a href="#"> eduKesha</a>
-                            <p>Разработали сервис для проведения онлайн-занятий </p>
-                        </div>
-
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="projects__cards">
-                            <img src="../img/doantlike.svg" alt="">
-                            <a href="#">donatlike </a>
-                            <p>Разработали телеграмм-бота для отправки платных реакций</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-lg-4">
-                        <div class="projects__cards">
-                            <img src="../img/surgu.png" alt="">
-                            <a href="#">surgu </a>
-                            <p>Разработали сайт приемной комиссии СурГУ</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="tech">
-            <div class="container">
-                <h2></h2>
-                <div class="row">
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/php.svg" alt="">
-                            <div class="tech__card-name">PHP</div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/laravel.svg" alt="">
-                            <div class="tech__card-name">Laravel</div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/js.svg" alt="">
-                            <div class="tech__card-name">JavaScript</div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/Vector.svg" alt="">
-                            <div class="tech__card-name">Vector</div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/mySQL.svg" alt="">
-                            <div class="tech__card-name">mySQL</div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/gitlab.svg" alt="">
-                            <div class="tech__card-name">Gitlab</div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/api.svg" alt="">
-                            <div class="tech__card-name"></div>
-                        </div>
-                    </div>
-                    <div class="col-4 col-lg-3 mb-3">
-                        <div class="tech__card">
-                            <img src="../img/postgreSQL.svg" alt="">
-                            <div class="tech__card-name"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="feedback">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-6">
-                        <div class="feedback__text">
-                            <h2>Остались вопросы?</h2>
-                            <p>Свяжитесь с нами!</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-xl-6">
-                        <form class="form">
-                            <label for="textarea" class="mb-3">
-                                <textarea placeholder="Введите ваш вопрос"  title="Ваш вопрос" required></textarea>
-                            </label>
-                            <div class="form_group">
-                                <label for="textarea" class="mb-3">
-                                    <input type="text" placeholder="Ваше имя" title="Ваше имя" required >
-                                </label>
-                                <label class="mb-3">
-                                    <input type="tel" placeholder="+7(___)___-____"
-                                    pattern="[0-9]{11}"
-                                    required
-                                    title="Ваш номер телефона"
-                                    maxlength="11" >
-                                </label>
-                                <label class="mb-3">
-                                    <input type="email" placeholder="Электронная почта" required  title="Ваша почта">   
-                                </label>
-                            </div>
-                            <button class="button-primary" type="submit">Отправить</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="footer__top">
-                    <div class="row">
-                        <div class="col-6 order-0 col-xl-4">
-                            <img src="../img/logo-1.svg" alt="logo">
-                        </div>
-                        <div class="col-12  col-xl-4">
-                            <ul class="footer__list ">
-                                <li>
-                                    <a href="mailto:docs@osipov.digital" class="footer__list-item-link">docs@osipov.digital</a>
-                                </li>
-                                <li class="footer__list-item">
-                                    <a href="tel:79224448131" class="footer__list-item-link">+7 (922) 444-81-31</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-6 order-xl-2 order-1 col-xl-4">
-                            <div class="footer__info">г. Сургут, ул. Базовая, д. 34, офис 10 <br> ОГРН 1238600001200 <br> ИНН 8602309464
-                            </div>
-                        </div>
-                        <nav>
-
-                        </nav>
-                    </div>
-                </div>
-
-                <div class="footer__copyright">
-                    ООО Дотсолюшн © 2023
-                </div>
-            </div>
-        </footer>
+        <Vheader></Vheader>
+        <main>
+            <Vpromo></Vpromo>
+            <Vnew></Vnew>
+            <Vprojects></Vprojects>
+            <Vtech></Vtech>
+            <Vdeedback></Vdeedback>
+        </main>
+        <Vfooter></Vfooter>
 </template>
 
-<script ></script>
+
 <style>
 
 </style>
