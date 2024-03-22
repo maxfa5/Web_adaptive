@@ -1,7 +1,6 @@
 
 
 <script setup>
-    const tech = {}
 </script>
 
 <template>
@@ -17,10 +16,10 @@
                         <div class="row">
                             <div class=" offset-sm-0 col-sm-12 offset-md-4 col-md-8 offset-xl-6 col-xl-6">
                                 <ul class="promo__list">
-                                    <li><img src="../img/arrow.svg">IT-консалтинг</li>
-                                    <li><img src="../img/arrow.svg">Проектирование и разработка веб-приложений</li>
-                                    <li><img src="../img/arrow.svg">Комплексная автоматизация</li>
-                                    <li><img src="../img/arrow.svg">Поддержка и сопровождение разработанных решений</li>
+                                    <li><img src="../../img/arrow.svg">IT-консалтинг</li>
+                                    <li><img src="../../img/arrow.svg">Проектирование и разработка веб-приложений</li>
+                                    <li><img src="../../img/arrow.svg">Комплексная автоматизация</li>
+                                    <li><img src="../../img/arrow.svg">Поддержка и сопровождение разработанных решений</li>
                                 </ul>
                             </div>
                         </div>

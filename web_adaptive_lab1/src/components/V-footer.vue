@@ -10,7 +10,7 @@
         <div class="footer__top">
             <div class="row">
                 <div class="col-6 order-0 col-xl-4">
-                    <img src="../img/logo-1.svg" alt="logo">
+                    <img src="../../img/logo-1.svg" alt="logo">
                 </div>
                 <div class="col-12  col-xl-4">
                     <ul class="footer__list ">

@@ -23,6 +23,19 @@ h1 {
   font-weight: 800;
   margin-bottom: 20px;
 }
+h1 span {
+  color: #FFA239;
+}
+@media screen and (max-width: 720px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 540px) {
+  h1 {
+    font-size: 28px;
+  }
+}
 
 ul {
   list-style: none;
@@ -68,7 +81,7 @@ ul {
 }
 .promo-bg {
   height: 628px;
-  background-image: url(../img/promo-pic.svg);
+  background-image: url(../../../img/promo-pic.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -138,7 +151,7 @@ ul {
   color: #ffb003;
 }
 .razrab__card {
-  background-image: url(../img/cards/Default.svg);
+  background-image: url(../../../img/cards/Default.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 261px;
