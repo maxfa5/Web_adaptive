@@ -22,10 +22,10 @@ export default {
 
 <template>
         <V_header></V_header>
+        <V_tech></V_tech>
         <V_promo></V_promo>
         <V_new></V_new>
         <V_projects></V_projects>
-        <V_tech></V_tech>
         <V_feedback></V_feedback>
         <V_footer></V_footer>
 </template>
