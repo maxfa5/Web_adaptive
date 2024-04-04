@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <section class="razrab row">
+    <section class="razrab row container">
                 <div class="razrab__names col-12 col-xl-6">
                     <div class="razrab__names__tecnologies"><span> web</span></div>
                     <div class="razrab__names__tecnologies"><span>system </span></div>

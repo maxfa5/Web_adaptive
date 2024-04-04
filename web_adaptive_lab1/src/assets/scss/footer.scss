@@ -2,7 +2,7 @@
     &__top {
         margin-bottom: 74px;
         .row {
-            @media screen and (max-width: 991px) {
+            @media screen and (max-width: 1199px) {
                 row-gap: 24px;
                 align-items: center;
             }
@@ -10,7 +10,7 @@
         img {
             align-items: left;
             vertical-align: middle;
-            @media screen and (max-width: 991px) {
+            @media screen and (max-width: 1199px) {
                 margin: 0px auto;
                 display: block;
             }

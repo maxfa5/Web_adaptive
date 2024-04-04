@@ -184,6 +184,12 @@ ul {
 @media screen and (max-width: 991px) {
   .tech .tech__card {
     padding-top: 44px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .tech .tech__card img {
+    padding-top: 44px;
   }
 }
 .tech .tech__card p {
@@ -243,9 +249,6 @@ ul {
 .form textarea::-moz-placeholder, .form input::-moz-placeholder {
   color: #8a99a8;
 }
-.form textarea:-ms-input-placeholder, .form input:-ms-input-placeholder {
-  color: #8a99a8;
-}
 .form textarea::placeholder,
 .form input::placeholder {
   color: #8a99a8;
@@ -274,7 +277,7 @@ ul {
 .footer__top {
   margin-bottom: 74px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
   .footer__top .row {
     row-gap: 24px;
     align-items: center;
@@ -284,7 +287,7 @@ ul {
   align-items: left;
   vertical-align: middle;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
   .footer__top img {
     margin: 0px auto;
     display: block;

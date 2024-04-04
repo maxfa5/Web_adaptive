@@ -16,6 +16,10 @@
                 span:hover {
                     color: #ffb003;
                 }
+                @media screen and (max-width: 426px) {
+                    font-weight: 300;
+                    font-size: 24px;    
+                }
             }
         }
         &__card {

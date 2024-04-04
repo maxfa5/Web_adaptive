@@ -18,11 +18,28 @@
         @media screen and (max-width: 991px) {
             padding-top: 44px;
         }
+        img{
+            @media screen and (max-width: 768px) {
+                padding-top: 44px;
+                width: 100%;
+            }
+            @media screen and (max-width: 376px) {
+                padding-top: 0px;
+                width: 100%;
+            }
+        }
         p {
             font-size: 18px;
             color: #8a99a8;
             padding-top: 25px;
             vertical-align: bottom;
+        }
+        &-name{
+            @media screen and (max-width: 768px) {
+                padding-top: 44px;
+                width: 80px;
+                height: 80px;
+            }
         }
     }
 }

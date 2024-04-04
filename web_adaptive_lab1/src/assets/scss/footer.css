@@ -1,7 +1,7 @@
 .footer__top {
   margin-bottom: 74px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
   .footer__top .row {
     row-gap: 24px;
     align-items: center;
@@ -11,7 +11,7 @@
   align-items: left;
   vertical-align: middle;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1199px) {
   .footer__top img {
     margin: 0px auto;
     display: block;

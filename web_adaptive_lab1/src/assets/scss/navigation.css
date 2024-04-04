@@ -4,6 +4,16 @@
   margin-bottom: 72px;
   justify-content: space-between;
 }
+@media screen and (max-width: 426px) {
+  .navigation {
+    margin-bottom: 32px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .navigation img {
+    width: 17%;
+  }
+}
 .navigation__list {
   display: flex;
   justify-content: column;

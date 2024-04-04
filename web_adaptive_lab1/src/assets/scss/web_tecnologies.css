@@ -19,6 +19,12 @@
 .razrab__names__tecnologies span:hover {
   color: #ffb003;
 }
+@media screen and (max-width: 426px) {
+  .razrab__names__tecnologies {
+    font-weight: 300;
+    font-size: 24px;
+  }
+}
 .razrab__card {
   background-image: url(../../../img/cards/Default.svg);
   background-size: contain;

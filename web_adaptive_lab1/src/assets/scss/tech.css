@@ -22,9 +22,28 @@
     padding-top: 44px;
   }
 }
+@media screen and (max-width: 768px) {
+  .tech .tech__card img {
+    padding-top: 44px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 376px) {
+  .tech .tech__card img {
+    padding-top: 0px;
+    width: 100%;
+  }
+}
 .tech .tech__card p {
   font-size: 18px;
   color: #8a99a8;
   padding-top: 25px;
   vertical-align: bottom;
+}
+@media screen and (max-width: 768px) {
+  .tech .tech__card-name {
+    padding-top: 44px;
+    width: 80px;
+    height: 80px;
+  }
 }/*# sourceMappingURL=tech.css.map */

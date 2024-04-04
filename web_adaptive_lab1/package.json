@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "package-lock.json": "^1.0.0",
+    "package.json": "^2.0.1",
     "sass-loader": "^14.1.1",
-    "vue": "^3.2.13"
+    "vue": "^3.4.21"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -20,7 +22,7 @@
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "sass": "^1.71.1"
+    "sass": "^1.72.0"
   },
   "eslintConfig": {
     "root": true,
