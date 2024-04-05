@@ -1,6 +1,11 @@
 .promo {
   margin-bottom: 30px;
 }
+@media screen and (max-width: 769px) {
+  .promo h1 {
+    margin-bottom: 50px;
+  }
+}
 .promo px h1 span {
   color: #FFA239;
 }
@@ -9,7 +14,7 @@
 }
 @media screen and (max-width: 991px) {
   .promo p {
-    margin-bottom: 285px;
+    margin-bottom: 255px;
   }
 }
 .promo-bg {

@@ -3,7 +3,7 @@
     .row {
         row-gap: 24px;
     }
-    .tech__card {
+    &__card {
         display: flex;
         gap: 24px;
         flex-direction: column;
