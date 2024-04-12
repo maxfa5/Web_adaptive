@@ -4,14 +4,16 @@
 </script>
 
 <template>
-    <section class="razrab row container">
-                <div class="razrab__names col-12 col-xl-6">
+    <section class="razrab container">
+        <div class="obertka row">
+                <div class="razrab__names col-12 col-lg-6">
                     <div class="razrab__names__tecnologies"><span> web</span></div>
                     <div class="razrab__names__tecnologies"><span>system </span></div>
                     <div class="razrab__names__tecnologies"> <span>integration </span></div>
                     <div class="razrab__names__tecnologies"><span>automatization </span></div>
                 </div>
-                <div class="razrab__card col-12 col-xl-6"></div>
+                <div class="razrab__card col-12 col-lg-6"></div>       
+        </div>
     </section>
 </template>
 

@@ -1,65 +1,33 @@
 
 
 <script setup>
-
 </script>
 
 <template>
-       <section class="tech">
-    <div class="container">
-        <h2>Технологии</h2>
-        <div class="row">
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/php.svg" alt="">
-                    <div class="tech__card-name">PHP</div>
+       <section class="promo">
+                <div class="container">
+                    <div class="promo-bg">
+                        <div class="row">
+                            <div class="col-lg-8 col-lx-7">
+                                <h1>Разрабатываем <span> IT-решения </span> для бизнеса</h1>
+                                <img src="../../public/promo-pic.svg" class="sm_pic" alt=""> 
+                                <p class=" offset-lg-0">Специализируемся в области разработки информационных <br>систем и приложений для автоматизации бизнеса.</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class=" offset-3  offset-lg-6 col-6">
+                                <ul class="promo__list">
+                                    <li><img src="/arrow.svg">IT-консалтинг</li>
+                                    <li><img src="/arrow.svg">Проектирование и разработка веб-приложений</li>
+                                    <li><img src="/arrow.svg">Комплексная автоматизация</li>
+                                    <li><img src="/arrow.svg">Поддержка и сопровождение разработанных решений</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/laravel.svg" alt="">
-                    <div class="tech__card-name">Laravel</div>
-                </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/js.svg" alt="">
-                    <div class="tech__card-name">JavaScript</div>
-                </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/Vector.svg" alt="">
-                    <div class="tech__card-name">Vector</div>
-                </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/mySQL.svg" alt="">
-                    <div class="tech__card-name">mySQL</div>
-                </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/gitlab.svg" alt="">
-                    <div class="tech__card-name">Gitlab</div>
-                </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/api.svg" alt="">
-                    <div class="tech__card-name">Rest API</div>
-                </div>
-            </div>
-            <div class="col-4 col-lg-3 mb-3">
-                <div class="tech__card">
-                    <img src="/postgreSQL.svg" alt="">
-                    <div class="tech__card-name">postgreSQL</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+            </section>
 </template>
 
 <style scoped>

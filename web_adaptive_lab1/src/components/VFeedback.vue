@@ -29,7 +29,7 @@
                             title="Ваш номер телефона"
                             maxlength="11" >
                         </label>
-                        <label class="mb-3">
+                        <label class="">
                             <input type="email" placeholder="Электронная почта" required  title="Ваша почта">   
                         </label>
                     </div>

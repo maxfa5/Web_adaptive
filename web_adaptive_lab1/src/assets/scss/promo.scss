@@ -1,8 +1,22 @@
 .promo {
-    margin-bottom: 30px;
+    margin-bottom: 100px;
+    @media screen and (max-width: 426px) {
+        margin-bottom: 170px;
+    }
+    .row{
+        margin-bottom: 30px;
+    }
+    .sm_pic{
+        display: none;
+        @media screen and (max-width: 426px) {
+            display: block;
+            width: 100%;
+            margin-bottom: 40px;
+        }   
+    }
     h1 {
         @media screen and (max-width: 769px) {
-            margin-bottom: 50px;
+            width: 90%;
         }
     }
     px h1 {
@@ -12,17 +26,19 @@
     }
     p {
         margin-bottom: 262px;
-        @media screen and (max-width: 991px) {
-            margin-bottom: 255px;
+        @media screen and (max-width: 426px) {
+            margin-bottom: 30px;
         }
     }
     &-bg {
         height: 628px;
-        background-image: url(../../../img/promo-pic.svg);
+        background-image: url(../../public/promo-pic.svg);
         background-repeat: no-repeat;
+        background-position: center;
         background-size: contain;
-        @media screen and (max-width: 991px) {
-            height: 670px;
+
+        @media screen and (max-width: 426px) {
+            background-image: none;
         }
     }
     &__list {

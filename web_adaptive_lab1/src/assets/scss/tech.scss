@@ -18,16 +18,18 @@
         @media screen and (max-width: 991px) {
             padding-top: 44px;
         }
-        img{
-            @media screen and (max-width: 768px) {
-                padding-top: 44px;
-                width: 100%;
-            }
-            @media screen and (max-width: 376px) {
-                padding-top: 0px;
-                width: 100%;
-            }
-        }
+
+        // img{
+
+        //     @media screen and (max-width: 768px) {
+        //         width: 90%;
+        //         height: 90%;
+        //     }
+        //     @media screen and (max-width: 376px) {
+        //         width: 90%;
+        //         height: 90%;
+        //     }
+        // }
         p {
             font-size: 18px;
             color: #8a99a8;
@@ -36,7 +38,7 @@
         }
         &-name{
             @media screen and (max-width: 768px) {
-                padding-top: 44px;
+                padding-top: 30px;
                 width: 80px;
                 height: 80px;
             }

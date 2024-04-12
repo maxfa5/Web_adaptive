@@ -1,9 +1,9 @@
 <script >
 import VHeader from '@/components/VHeader.vue';
-import VPromo from './components/VPromo.vue';
+import VPromo from './components/VTech.vue';
 import VNew from './components/VNew.vue';
 import VProjects from './components/VProjects.vue';
-import VTech from './components/VTech.vue';
+import VTech from './components/VPromo.vue';
 import VFeedback from './components/VFeedback.vue';
 import VFooter from './components/VFooter.vue';
 

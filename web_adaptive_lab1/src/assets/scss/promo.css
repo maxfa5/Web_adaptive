@@ -1,9 +1,27 @@
 .promo {
+  margin-bottom: 100px;
+}
+@media screen and (max-width: 426px) {
+  .promo {
+    margin-bottom: 170px;
+  }
+}
+.promo .row {
   margin-bottom: 30px;
+}
+.promo .sm_pic {
+  display: none;
+}
+@media screen and (max-width: 426px) {
+  .promo .sm_pic {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
 @media screen and (max-width: 769px) {
   .promo h1 {
-    margin-bottom: 50px;
+    width: 90%;
   }
 }
 .promo px h1 span {
@@ -12,20 +30,21 @@
 .promo p {
   margin-bottom: 262px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 426px) {
   .promo p {
-    margin-bottom: 255px;
+    margin-bottom: 30px;
   }
 }
 .promo-bg {
   height: 628px;
-  background-image: url(../../../img/promo-pic.svg);
+  background-image: url(../../public/promo-pic.svg);
   background-repeat: no-repeat;
+  background-position: center;
   background-size: contain;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 426px) {
   .promo-bg {
-    height: 670px;
+    background-image: none;
   }
 }
 .promo__list li {

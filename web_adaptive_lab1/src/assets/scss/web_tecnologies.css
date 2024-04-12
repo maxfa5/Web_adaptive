@@ -1,3 +1,8 @@
+@media screen and (min-width: 768px) {
+  .razrab {
+    margin-bottom: 50px;
+  }
+}
 .razrab__names {
   display: flex;
   justify-content: center;
@@ -26,13 +31,9 @@
   }
 }
 .razrab__card {
-  background-image: url(../../../img/cards/Default.svg);
+  background-image: url(../../public/cards/Default.svg);
   background-size: contain;
   background-repeat: no-repeat;
   height: 261px;
-}
-@media screen and (max-width: 1200px) {
-  .razrab__card {
-    background-position: center;
-  }
+  background-position: center;
 }/*# sourceMappingURL=web_tecnologies.css.map */

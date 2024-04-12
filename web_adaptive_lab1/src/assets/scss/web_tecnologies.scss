@@ -1,4 +1,7 @@
     .razrab {
+        @media screen and (min-width: 768px) {
+            margin-bottom: 50px;
+        }
         &__names {
             display: flex;
             justify-content: center;
@@ -23,12 +26,11 @@
             }
         }
         &__card {
-            background-image: url(../../../img/cards/Default.svg);
+            background-image: url(../../public/cards/Default.svg);
             background-size: contain;
             background-repeat: no-repeat;
             height: 261px;
-            @media screen and (max-width: 1200px) {
-                background-position: center;
-            }
+            background-position: center;
+            
         }
     }
