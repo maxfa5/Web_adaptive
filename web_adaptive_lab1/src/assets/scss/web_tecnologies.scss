@@ -26,11 +26,20 @@
             }
         }
         &__card {
-            background-image: url(../../public/cards/Default.svg);
-            background-size: contain;
-            background-repeat: no-repeat;
-            height: 261px;
-            background-position: center;
+            border-radius: 15px;
             
+            height: 261px;
+            display: flex;
+            flex-direction:column;
+            background-color: #FFF;
+            box-shadow: 0px 0px 35px 2px #0C28361F;
+            img{
+                width: 20%;
+                height: 30%;
+                
+            }
+            p{
+                width: 70%;
+            }
         }
     }

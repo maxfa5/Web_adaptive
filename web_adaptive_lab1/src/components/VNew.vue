@@ -12,7 +12,10 @@
                     <div class="razrab__names__tecnologies"> <span>integration </span></div>
                     <div class="razrab__names__tecnologies"><span>automatization </span></div>
                 </div>
-                <div class="razrab__card col-12 col-lg-6"></div>       
+                <div class="razrab__card col-12 col-lg-6">
+                    <img class="m-3" src="/website.svg" alt="website">
+                    <p class="m-4">Разрабатываеи высокопроизводительные и масштабируемые веб-приложения</p>
+                </div>       
         </div>
     </section>
 </template>

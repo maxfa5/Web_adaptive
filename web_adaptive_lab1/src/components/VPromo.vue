@@ -10,7 +10,7 @@
                         <div class="row">
                             <div class="col-lg-8 col-lx-7">
                                 <h1>Разрабатываем <span> IT-решения </span> для бизнеса</h1>
-                                <img src="../../public/promo-pic.svg" class="sm_pic" alt=""> 
+                                <img src="/promo-pic.svg" class="sm_pic" alt=""> 
                                 <p class=" offset-lg-0">Специализируемся в области разработки информационных <br>систем и приложений для автоматизации бизнеса.</p>
                             </div>
                         </div>
