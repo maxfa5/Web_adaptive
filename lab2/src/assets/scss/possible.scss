@@ -1,0 +1,44 @@
+.possibilities{
+    margin-bottom: 67px;
+
+    &__header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+    }
+    &__card{
+        width: 285px;
+        height: 320px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        h4{
+            text-align: center;
+            margin-bottom: 18px;
+        }
+        img{
+            margin-top: 48px;
+            height: 90px;
+            margin-bottom: 26px;
+        }
+    }
+    &__card__blue{
+        background-color: #DFE1FF;
+        box-shadow: 0px 10px 50px 0px #4047E233;
+
+    }
+    &__card__orange{
+        background-color: #FFE1AD;
+        box-shadow: 0px 10px 50px 0px #FCA20633;
+
+    }
+ 
+    .possibilities__swiper-slide{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 38px;
+        width: auto;
+    }
+}

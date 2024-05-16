@@ -2,11 +2,14 @@
 .service {
     margin-bottom: 80px;
     .service__content {
-        @media screen and (min-width: $sm) {
+        @media screen and (min-width: $md) {
             display: flex;
             flex-direction: row;
         }
         .service__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             margin: 0 auto;
             p {
                 color: $color_gray;
@@ -18,12 +21,12 @@
             .service__buttons {
                 display: flex;
 
-                @media screen and (max-width: $sm) {
+                @media screen and (max-width: $md) {
                     flex-direction: column;
                 }
                 button {
                     margin: 0 7px 7px 0;
-                    @media screen and (max-width: $sm) {
+                    @media screen and (max-width: $md) {
                         width: 100%;
                     }
                 }
@@ -42,12 +45,12 @@
             .service__cover-mobile {
                 box-shadow: 0px 10px 50px 0px #4047e233;
             }
-            @media screen and (max-width: $sm) {
+            @media screen and (max-width: $md) {
                 .service__cover-desktop {
                     display: none;
                 }
             }
-            @media screen and (min-width:$sm) {
+            @media screen and (min-width: $md) {
                 .service__cover-mobile {
                     display: none;
                 }
@@ -60,4 +63,22 @@
             }
         }
     }
+}
+
+.lesson-button {
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: $color_main;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.demo-button {
+    width: 225px;
+    height: 50px;
+    border-color: $color-main;
+    background-color: #fff;
+    border-radius: 10px;
+    color: $color-main;
 }

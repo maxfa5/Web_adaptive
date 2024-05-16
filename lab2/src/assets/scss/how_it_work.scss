@@ -1,0 +1,32 @@
+.idea{
+    margin-bottom: 80px;
+    &__header{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 54px;
+    }
+
+    &__element{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        img{
+            margin-bottom: 24px;
+        }
+        h4{
+            margin-bottom: 24px;
+        }
+    }
+    
+        @media screen and (max-width: $lg){
+            p{
+                margin-bottom: 50px;
+            }
+            .idea__header{
+                margin-bottom: 25px;
+            }
+        }
+    
+}

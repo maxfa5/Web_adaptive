@@ -1,0 +1,49 @@
+body {
+  font-size: 16px;
+  font-family: "Rubik", "sans-serif";
+  line-height: 1.5;
+  color: #3F3A51;
+}
+
+.class {
+  background-color: #dfe1ff;
+  padding-bottom: 86px;
+}
+@media screen and (max-width: 425px) {
+  .class {
+    background-color: #fff;
+  }
+}
+@media screen and (min-width: 425px) {
+  .class {
+    padding-top: 73px;
+  }
+}
+.class .class__content {
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 425px) {
+  .class .class__content h2 {
+    margin-bottom: 0px;
+  }
+}
+.class .class__content .class__card {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+@media screen and (max-width: 425px) {
+  .class .class__content .class__card {
+    margin-top: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+  }
+}
+.class .class__content .class__card img {
+  border-radius: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+}/*# sourceMappingURL=class.css.map */

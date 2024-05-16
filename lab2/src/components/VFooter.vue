@@ -1,44 +1,47 @@
-<script setup>
-
-</script>
-
 <template>
-
-<template>
-
-<header>
-    <nav class="navigation mb-5 mt-5">
+    <footer>
         <div class="container">
-            <div class="navigation__wrap">
-                <div class="navigation__logo">
-                    <img src="logo.svg" alt="">
-                </div>
+            <div class="footer__group">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="footer__element">
+                            <img src="/logo.svg" alt="">
 
-                <button class="navigation__menu-button" id="navigation__menu-button">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class="navigation__menu">
-                    <ul class="navigation__list">
-                        <li><a href="">Возможности</a></li>
-                        <li><a href="">Как это работает?</a></li>
-                    </ul>
-                    <div class="navigation__refs">
-                        <ul class="navigation__refs-list">
-                            <li>г Сургут, ул Базовая, д. 34, офис 10</li>
-                            <li>ОГРН 1238600001200ИНН</li>
-                            <li>8602309464</li>
-                            <li>ООО Дотсолюшн © 2023</li>
-                        </ul>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <div class="footer__element right-obj">
+
+                            <img src="/fond-logo.svg" alt="" class="footer__fond-logo">
+                        </div>
                     </div>
                 </div>
+
+            </div>
+
+            <div class="footer__line"></div>
+
+            <div class="footer__group">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div class="footer__element">
+
+                            <ul>
+                                <li>г Сургут, ул Базовая, д. 34, офис 10</li>
+                                <li>ОГРН 1238600001200ИНН </li>
+                                <li>8602309464</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-12  col-sm-6">
+                        <div class="footer__element right-obj">
+
+                            <p class="justify-self-center">ООО Дотсолюшн © 2023</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </nav>
-</header>
+    </footer>
 </template>
-   
-</template>
-
-<style scoped></style>

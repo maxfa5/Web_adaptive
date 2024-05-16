@@ -1,0 +1,40 @@
+.possibilities {
+  margin-bottom: 67px;
+}
+.possibilities__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+.possibilities__card {
+  width: 285px;
+  height: 320px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.possibilities__card h4 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.possibilities__card img {
+  margin-top: 48px;
+  height: 90px;
+  margin-bottom: 26px;
+}
+.possibilities__card__blue {
+  background-color: #DFE1FF;
+  box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
+}
+.possibilities__card__orange {
+  background-color: #FFE1AD;
+  box-shadow: 0px 10px 50px 0px rgba(252, 162, 6, 0.2);
+}
+.possibilities .possibilities__swiper-slide {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 38px;
+  width: auto;
+}/*# sourceMappingURL=possible.css.map */

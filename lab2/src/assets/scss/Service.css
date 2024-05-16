@@ -8,13 +8,16 @@ body {
 .service {
   margin-bottom: 80px;
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   .service .service__content {
     display: flex;
     flex-direction: row;
   }
 }
 .service .service__content .service__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
 }
 .service .service__content .service__text p {
@@ -27,7 +30,7 @@ body {
 .service .service__content .service__text .service__buttons {
   display: flex;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .service .service__content .service__text .service__buttons {
     flex-direction: column;
   }
@@ -35,7 +38,7 @@ body {
 .service .service__content .service__text .service__buttons button {
   margin: 0 7px 7px 0;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .service .service__content .service__text .service__buttons button {
     width: 100%;
   }
@@ -55,12 +58,12 @@ body {
 .service .service__content .service__cover .service__cover-mobile {
   box-shadow: 0px 10px 50px 0px rgba(64, 71, 226, 0.2);
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .service .service__content .service__cover .service__cover-desktop {
     display: none;
   }
 }
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 768px) {
   .service .service__content .service__cover .service__cover-mobile {
     display: none;
   }
@@ -71,4 +74,22 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 10px;
+}
+
+.lesson-button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  background-color: #4047E2;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.demo-button {
+  width: 225px;
+  height: 50px;
+  border-color: #4047E2;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #4047E2;
 }/*# sourceMappingURL=Service.css.map */
