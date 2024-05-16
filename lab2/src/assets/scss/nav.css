@@ -132,4 +132,7 @@ body.hidden, html.hidden {
     display: block;
     padding-right: 30px;
   }
+  .navigation .navigation__wrap .navigation__menu .navigation__refs ul {
+    list-style-type: none;
+  }
 }/*# sourceMappingURL=nav.css.map */

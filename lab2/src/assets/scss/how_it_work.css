@@ -1,0 +1,36 @@
+body {
+  font-size: 16px;
+  font-family: "Rubik", "sans-serif";
+  line-height: 1.5;
+  color: #3F3A51;
+}
+
+.idea {
+  margin-bottom: 80px;
+}
+.idea__header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+.idea__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.idea__element img {
+  margin-bottom: 24px;
+}
+.idea__element h4 {
+  margin-bottom: 24px;
+}
+@media screen and (max-width: 992px) {
+  .idea p {
+    margin-bottom: 50px;
+  }
+  .idea .idea__header {
+    margin-bottom: 25px;
+  }
+}/*# sourceMappingURL=how_it_work.css.map */

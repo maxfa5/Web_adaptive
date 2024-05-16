@@ -131,6 +131,9 @@
                 .navigation__refs {
                     display: block;
                     padding-right: 30px;
+                    ul{
+                        list-style-type: none;
+                    }
                 }
             }
         }

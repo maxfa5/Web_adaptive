@@ -12931,6 +12931,9 @@ body.hidden, html.hidden {
     display: block;
     padding-right: 30px;
   }
+  .navigation .navigation__wrap .navigation__menu .navigation__refs ul {
+    list-style-type: none;
+  }
 }
 body {
   font-size: 16px;
@@ -13046,6 +13049,13 @@ body {
   justify-content: center;
   margin-bottom: 38px;
   width: auto;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Rubik", "sans-serif";
+  line-height: 1.5;
+  color: #3F3A51;
 }
 
 .idea {
