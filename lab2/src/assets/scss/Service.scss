@@ -21,7 +21,7 @@
             .service__buttons {
                 display: flex;
 
-                @media screen and (max-width: $md) {
+                @media screen and (max-width: $xl) {
                     flex-direction: column;
                 }
                 button {

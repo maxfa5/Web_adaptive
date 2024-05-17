@@ -30,7 +30,7 @@ body {
 .service .service__content .service__text .service__buttons {
   display: flex;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .service .service__content .service__text .service__buttons {
     flex-direction: column;
   }
