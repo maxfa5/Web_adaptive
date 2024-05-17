@@ -1,0 +1,30 @@
+$color_default: #3F3A51;
+
+$color_main:#4047E2;
+$color_secondary: #FCA206;
+$color_light: #eaeaea;
+$color_dark: #1D1A27;
+$color_gray: #8F99AC;
+$color_danger: #EB5757;
+$color_warning: #fffa00;
+$color_success: #00AF81;
+
+$shadow_1:$color_main;
+$shadow_2:#6b64FF;
+$shadow_3:#9283FF;
+$shadow_4:#B7A3FF;
+$shadow_5:#DDC4FF;
+
+$li:320px;
+$sm: 425px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+body {
+    font-size: 16px;
+    font-family: 'Rubik', 'sans-serif';
+    line-height: 1.5;
+    color:$color_default;
+}

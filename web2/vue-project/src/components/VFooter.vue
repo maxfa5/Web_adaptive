@@ -3,13 +3,13 @@
         <div class="container">
             <div class="footer__group">
                 <div class="row">
-                    <div class="col-12 col-sm-6">
+                    <div class="col-6 col-xs-12">
                         <div class="footer__element">
                             <img src="/logo.svg" alt="">
 
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6">
+                    <div class="col-6 col-xs-12">
                         <div class="footer__element right-obj">
 
                             <img src="/fond-logo.svg" alt="" class="footer__fond-logo">
@@ -23,7 +23,7 @@
 
             <div class="footer__main">
                 <div class="row">
-                    <div class="col-12 col-sm-6">
+                    <div class="col-6 col-xs-12">
                         <div class="footer__element">
 
                             <ul>
@@ -33,7 +33,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-12  col-sm-6">
+                    <div class="col-6 col-xs-12">
                         <div class="footer__element right-obj">
 
                             <p class="justify-self-center">ООО Дотсолюшн © 2023</p>

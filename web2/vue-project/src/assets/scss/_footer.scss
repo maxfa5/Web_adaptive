@@ -1,0 +1,39 @@
+@import "base.scss";
+.footer{
+    color: $color_gray;
+    
+    &__line{
+        height: 1px;
+        width: 100%;
+        background-color: $color_gray;
+    }
+    &__main{
+        margin-top: 33px;
+        margin-bottom: 33px;
+
+    }
+    &__fond-logo{
+        height: 71px;
+        
+    }
+    img{
+        height: 53px;
+    }
+    &__element{
+        display: flex;
+        margin: 30px;
+    }
+
+    .right-obj{
+        justify-content: right;
+        text-align: right;
+    }
+    @media screen and (max-width: $sm) {
+        .footer__element{
+            justify-content: center;
+            text-align: center;
+            margin: 10px;
+
+        }
+    }
+}
