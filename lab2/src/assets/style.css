@@ -12796,6 +12796,9 @@ body {
   border-radius: 10px;
   color: #4047E2;
 }
+.demo-button img {
+  margin-right: 10px;
+}
 
 body {
   font-size: 16px;
@@ -12804,7 +12807,7 @@ body {
   color: #3F3A51;
 }
 
-body.hidden, html.hidden {
+body.hidden {
   height: 100%;
   overflow: hidden;
 }
@@ -12821,25 +12824,25 @@ body.hidden, html.hidden {
   transition: background-color 0.2s;
 }
 
-.navigation .navigation__wrap {
+.nav .nav__wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navigation .navigation__wrap.open {
+.nav .nav__wrap.open {
   overflow: visible;
 }
-.navigation .navigation__wrap .navigation__menu {
+.nav .nav__wrap .nav__menu {
   z-index: 10;
   transition: transform 0.2s;
   background-color: #fff;
 }
-.navigation .navigation__wrap .navigation__menu.open {
+.nav .nav__wrap .nav__menu.open {
   transform: translateX(-95%);
-  position: block;
+  display: block;
   height: 100vh;
 }
-.navigation .navigation__wrap .navigation__menu-button {
+.nav .nav__wrap .nav__menu-button {
   position: relative;
   width: 40px;
   height: 40px;
@@ -12849,7 +12852,7 @@ body.hidden, html.hidden {
   display: none;
   z-index: 20;
 }
-.navigation .navigation__wrap .navigation__menu-button span {
+.nav .nav__wrap .nav__menu-button span {
   position: absolute;
   width: 30px;
   height: 3px;
@@ -12858,52 +12861,60 @@ body.hidden, html.hidden {
   border-radius: 1px;
   transition: transform 0.5s, opacity 0.5s;
 }
-.navigation .navigation__wrap .navigation__menu-button span:nth-child(1) {
+.nav .nav__wrap .nav__menu-button span:nth-child(1) {
   transform: translateY(-10px);
 }
-.navigation .navigation__wrap .navigation__menu-button span:nth-child(3) {
+.nav .nav__wrap .nav__menu-button span:nth-child(3) {
   transform: translateY(10px);
 }
-.navigation .navigation__wrap .navigation__menu-button.open span:nth-child(1) {
+.nav .nav__wrap .nav__menu-button.open span:nth-child(1) {
   transform: translateY(0) rotate(45deg);
 }
-.navigation .navigation__wrap .navigation__menu-button.open span:nth-child(2) {
+.nav .nav__wrap .nav__menu-button.open span:nth-child(2) {
   opacity: 0;
 }
-.navigation .navigation__wrap .navigation__menu-button.open span:nth-child(3) {
+.nav .nav__wrap .nav__menu-button.open span:nth-child(3) {
   transform: translateY(0) rotate(-45deg);
 }
-.navigation .navigation__wrap .navigation__menu-list {
+.nav .nav__wrap .nav__menu-list {
   height: 40px;
   width: 40px;
   background-color: aqua;
 }
-.navigation .navigation__wrap .navigation__list {
+.nav .nav__wrap .nav__list {
   display: flex;
   grid-gap: 51px;
 }
-.navigation .navigation__wrap .navigation__list a {
+.nav .nav__wrap .nav__list a {
   font-family: Rubik;
   font-size: 18px;
   font-weight: 400;
   line-height: 23.4px;
   text-align: left;
+  text-decoration: none;
+  color: #3F3A51;
 }
-.navigation .navigation__wrap .navigation__refs {
+.nav .nav__wrap .nav__list ul {
+  list-style-type: none;
+}
+.nav .nav__wrap .nav__refs {
   display: none;
   color: #8F99AC;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
-  .navigation .navigation__wrap {
+  .nav .nav__wrap {
     position: relative;
     overflow: hidden;
     width: 100%;
   }
-  .navigation .navigation__wrap .navigation__menu-button {
+  .nav .nav__wrap .nav__menu-button {
     display: block;
   }
-  .navigation .navigation__wrap .navigation__menu {
+  .nav .nav__wrap .nav__menu {
     position: fixed;
     right: 0;
     top: 0;
@@ -12914,24 +12925,27 @@ body.hidden, html.hidden {
     z-index: 10;
     right: -400px;
   }
-  .navigation .navigation__wrap .navigation__menu .navigation__list {
+  .nav .nav__wrap .nav__menu .nav__list {
     display: block;
     margin-bottom: 70%;
     margin-top: 30%;
     margin-right: 10px;
   }
-  .navigation .navigation__wrap .navigation__menu .navigation__list li {
+  .nav .nav__wrap .nav__menu .nav__list li {
+    text-decoration: none;
     display: block;
     padding: 20px;
   }
-  .navigation .navigation__wrap .navigation__menu .navigation__list li a {
+  .nav .nav__wrap .nav__menu .nav__list li a {
     font-size: 30px;
+    text-decoration: none;
+    color: #3F3A51;
   }
-  .navigation .navigation__wrap .navigation__menu .navigation__refs {
+  .nav .nav__wrap .nav__menu .nav__refs {
     display: block;
     padding-right: 30px;
   }
-  .navigation .navigation__wrap .navigation__menu .navigation__refs ul {
+  .nav .nav__wrap .nav__menu .nav__refs ul {
     list-style-type: none;
   }
 }

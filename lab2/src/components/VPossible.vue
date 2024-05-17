@@ -38,24 +38,6 @@ const cards = [
 </script>
 
 <template>
-<!--     
-    <swiper  
-    :modules="modules"
-    :slides-per-view="3"
-    :space-between="50"
-    
-    :pagination="{ clickable: true }"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
->
-        <swiper-slide>Slide 1</swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 1</swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        
-    </swiper> -->
 
     <section class="possibilities">
         <div class="container">
